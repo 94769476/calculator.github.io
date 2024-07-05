@@ -1,0 +1,113 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Basic calculator v1.0</h1>
+    <div class="container">
+        <div class="calc">
+            <form>
+                <div class="screen">
+                    <input type="text" name="screen">
+                </div>
+                <div class="buttons">
+                    <input type="button" value="AC" onclick="screen.value = '' " class="colour">
+                    <input type="button" value="DEL" onclick="screen.value = screen.value.toString().slice(0, -1)"
+                        class="colour">
+                    <input type="button" value="." onclick="screen.value += '.' " class="colour">
+                    <input type="button" value="/" onclick="screen.value += '/' " class="colour">
+                </div>
+                <div class="buttons">
+                    <input type="button" value="9" onclick="screen.value += '9' ">
+                    <input type="button" value="8" onclick="screen.value += '8' ">
+                    <input type="button" value="7" onclick="screen.value += '7' ">
+                    <input type="button" value="*" onclick="screen.value += '*' " class="colour">
+                </div>
+                <div class="buttons">
+                    <input type="button" value="6" onclick="screen.value += '6' ">
+                    <input type="button" value="5" onclick="screen.value += '5' ">
+                    <input type="button" value="4" onclick="screen.value += '4' ">
+                    <input type="button" value="-" onclick="screen.value += '-' " class="colour">
+                </div>
+                <div class="buttons">
+                    <input type="button" value="3" onclick="screen.value += '3' ">
+                    <input type="button" value="2" onclick="screen.value += '2' ">
+                    <input type="button" value="1" onclick="screen.value += '1' ">
+                    <input type="button" value="+" onclick="screen.value += '+' " class="colour">
+                </div>
+                <div class="buttons">
+                    <input type="button" value="0" onclick="screen.value += '0' ">
+                    <input type="button" value="%" onclick="screen.value += '%' " class="colour">
+                    <input type="button" value="=" class="equal colour">
+                </div>
+            </form>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Basic calculator v1.0</h1>
+    <div class="container">
+        <div class="calc">
+            <form>
+                <div class="screen">
+                    <input type="text" name="screen">
+                </div>
+                <div class="buttons">
+                    <button data-value="AC" class="colour">AC</button>
+                    <button data-value="DEL" class="colour">DEL</button>
+                    <button data-value="." class="colour">.</button>
+                    <button data-value="/" class="colour">/</button>
+                </div>
+                <div class="buttons">
+                    <button data-value="9">9</button>
+                    <button data-value="8">8</button>
+                    <button data-value="7">7</button>
+                    <button data-value="*" class="colour">*</button>
+                </div>
+                <div class="buttons">
+                    <button data-value="6">6</button>
+                    <button data-value="5">5</button>
+                    <button data-value="4">4</button>
+                    <button data-value="-" class="colour">-</button>
+                </div>
+                <div class="buttons">
+                    <button data-value="3">3</button>
+                    <button data-value="2">2</button>
+                    <button data-value="1">1</button>
+                    <button data-value="+" class="colour">+</button>
+                </div>
+                <div class="buttons">
+                    <button data-value="0">0</button>
+                    <button data-value="%" class="colour">%</button>
+                    <button data-value="=" class="equal colour">=</button>
+                </div>
+            </form>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
